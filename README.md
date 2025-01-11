@@ -1,0 +1,2 @@
+# PHP Type Juggling Bug
+This example demonstrates a common error in PHP: type juggling leading to unexpected results in function calculations. The function `calculate_total` is designed to sum an array of floats. However, if the input array contains strings that can be interpreted as numbers, the function will implicitly convert them causing inaccurate results.  The solution showcases how to enforce type checking for better error handling.
